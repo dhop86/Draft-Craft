@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Draft Craft :: Contact Us</title>
+<meta charset="utf-8">
+<meta name="viewport" 
+content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="draftcraft.css" media="screen">
+<link rel="icon" href="images/draftcraftfavicon.jpeg" type="image/x-icon">
+</head>
+<body>
+	<div id="wrapper">
+		<div>
+			<header id="headerimage">
+				<h1>Draft Craft</h1>
+			</header>
+		</div>
+		<div>
+			<nav>
+				<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="beer.html">Beer</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="events.html">Events</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div>
+			<main>
+				<div class="row">
+					<div class="h2col">
+						<h2>Drop Us A Line</h2>
+					</div>
+				</div>
+				<div>
+					<form name="customerfeedback" id="customerfeedback" method="post" 
+					action="confirmation.html">
+						<fieldset>
+						<legend>What's Up?</legend>
+						<label for="custname">* Name </label>
+						<input type="text" name="custname" id="custname" required="required">
+					
+						<label for="custemail">* Email </label>
+						<input type="email" name="custemail" id="custemail" required="required">
+					
+						<label for="custphone">Phone </label>
+						<input type="tel" name="custphone" id="custphone">
+					
+						<label for="comments">* Comments</label>
+						<textarea name="comments" id="comments" rows="4" cols="35" required="required"></textarea>
+					
+						<input type="submit" name="mySubmit" id="mySubmit" value="Submit">
+					
+						<p id="center">Required fields marked with an asterisk (*).</p>
+						</fieldset>
+					</form>
+				</div>
+				<div class="row hours-location">
+					<div class="col-8">
+						<h3>Location</h3>
+						<p>123 N Tampa St. Tampa, FL 33602</p>
+					</div>
+					<div class="col-4">
+						<h3>Hours</h3>
+						<p>Sun&mdash;Sat from 4:30 PM&mdash;1:00 AM<br><br>
+						Happy Hour daily from 4:30 PM&mdash;6:00 PM</p>
+					</div>
+				</div>
+				<div class="nav2">
+					<ul>
+					<li><a href="beer.html">Beer</a></li>
+					<li><a href="events.html">Events</a></li>
+					</ul>
+				</div>
+			</main>
+		</div>
+		<div>
+			<footer>
+				<p>Draft Craft &copy; 2021<br>
+				123 N Tampa St Tampa, FL 33602<br>
+				<a id="mobile" href="tel:555-555-5555">555-555-5555</a><span id="desktop">555-555-5555</span>&mdash;<a id="email" href="mailto:contact@draftcraft.com">contact@draftcraft.com</a></p>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
